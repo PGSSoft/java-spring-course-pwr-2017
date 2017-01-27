@@ -1,4 +1,10 @@
-# kurs-java-spring-pwr-2017
-Kurs tworzenia aplikacji webowych w oparciu o Javę i Springa, PWR 2017
+# Java Spring PWR 2017 Course Page
+## Intro
+This is the homepage of Java/Spring course organized on Wrocław Uniwersity of Technology by [PGS Software](https://www.pgs-soft.com/) in Spring 2017.
+Our goal is to go through key aspects of professional development of web application based on the most popular Java web framework - [Spring]( https://spring.io/)
+## Prerequisites
+## Agenda
 
-Repozytorium zawiera szkielet aplikacji wykorzystującej zagadnienia omawiane na zajęciach.
+
+
+
