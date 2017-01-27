@@ -21,41 +21,54 @@ Note that this may be subject to change depending on how fast we will be able to
 
 ### Chapter 2: Tools and environments
 * IDE: Eclipse / Intellij IDEA.
-* Version control: GIT, GitHub.
-* Build tool: Maven.
-* Deployment: Tomcat, Heroku.
-* Code enhancement: Project Lombok
+* Version control: [GIT]( https://git-scm.com/), [GitHub](https://github.com/).
+* Build tool: [Maven](https://maven.apache.org/).
+* Deployment: [Tomcat](http://tomcat.apache.org/), [Heroku](https://www.heroku.com/).
+* Code enhancement: [Project Lombok](https://projectlombok.org/index.html)
 
 ### Chapter 3: Spring basics
 * Basics of HTTP, request, response, servlets
 * Basics of Java web applications.
 * Application configuration.
-* Spring Boot.
+* [Spring Boot]( https://projects.spring.io/spring-boot/).
 * Beans, scopes, annotations, factories, contexts.
 
 ### Chapter 4: Web Services
-* REST, HTTP verbs, Richardson maturity model
-* HATEOAS
-* Spring Rest
-* Tools - Postman
+* REST, HTTP verbs, Richardson maturity model.
+* HATEOAS.
+* Spring Rest.
+* Tools – [Postman]( https://www.getpostman.com/docs/introduction).
 
 ### Chapter 5: Database
-* SQL and relational databases
-* JPA, Object-Relational Mapping
-* Spring Data
+* SQL and relational databases.
+* JPA, Object-Relational Mapping.
+* Spring Data.
 
 ### Chapter 6: Testing
 * Testing basics
-* Junit, unit tests
-* Mockito, mocking frameworks
+* [Junit]( http://junit.org/), unit tests
+* [Mockito]( http://site.mockito.org/), mocking frameworks
 * Integration tests
 
 ### Chapter 7: Security & Logging
-* Spring security
+* Spring Security
 * Logging frameworks
 ### Chapter 8: Error Handling & Advanced Spring
 * HTTP Error codes and Java exceptions
 * Advanced Spring features and more
 
 ## Materials
+Aside from links in the agenda:
+* [Spring - guides](https://spring.io/guides)
+* [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
+* Varanasi Balaji, Belida Sudha: [Spring REST](http://www.apress.com/la/book/9781484208243)
+* Sam Newman: [Building Microservices]( http://shop.oreilly.com/product/0636920033158.do)
 
+Pluralsight has some good courses. It is paid service, but there is a 30 days free trial:
+* [Spring Fundamentals](https://app.pluralsight.com/library/courses/spring-fundamentals/table-of-contents)
+* [REST Fundamentals](https://app.pluralsight.com/library/courses/rest-fundamentals/table-of-contents)
+* [Architecting Web Applications with Spring](https://app.pluralsight.com/library/courses/architecting-web-applications-spring/table-of-contents)
+* [Getting Started with Spring Data JPA](https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started/table-of-contents)
+* [Maven Fundamentals](https://app.pluralsight.com/library/courses/maven-fundamentals/table-of-contents)
+* [Spring Security Fundamentals](https://app.pluralsight.com/library/courses/spring-security-fundamentals/table-of-contents)
+* [Unit Testing In Java With JUnit](https://app.pluralsight.com/library/courses/java-unit-testing-junit/table-of-contents)
