@@ -8,9 +8,17 @@ After the course, we would like to invite some of you to participate in summer i
 
 ## Org
 * The course will start March 7 (Tuesday)
-* The course will consist of eight meetings, carried over six weeks. First two weeks we will meet on Tuesdays and Thursdays, and then we will move to Thursdays only for next four weeks. 
+* The course will consist of eight meetings, carried over six weeks:
+* 07.03.2017
+* 09.03.2017
+* 14.03.2017
+* 16.03.2017
+* 21.03.2017
+* 28.03.2017
+* 04.04.2017
+* 11.04.2017
 * Classes will start at 5pm and last two hours. 
-* Classes will take place at [room id]
+* Classes will take place at Wrocław University of Technology, plac Grunwaldzki 11, 50-377 Wrocław, building D-21, room 201
 * You can contact us via [mail]
 
 ## Prerequisites
