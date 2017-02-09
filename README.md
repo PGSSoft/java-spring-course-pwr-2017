@@ -19,7 +19,7 @@ After the course, we would like to invite some of you to participate in summer i
 * 11.04.2017
 * Classes will start at 5pm and last two hours. 
 * Classes will take place at Wrocław University of Technology, plac Grunwaldzki 11, 50-377 Wrocław, building D-21, room 201
-* You can contact us via [mail]
+* You can contact us via pgscourse@pgs-soft.com
 
 ## Prerequisites
 * Basic Java SE skills is the only hard requirement. We would like to focus on how to implement features in given framework, environment, tools, clean code, good practices etc. not the basics of language itself.
