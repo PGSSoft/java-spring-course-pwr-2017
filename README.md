@@ -75,9 +75,11 @@ Note, that this may be subject to change depending on how fast we will be able t
 ## Materials
 Aside from links in the agenda:
 * [Spring - guides](https://spring.io/guides)
-* [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
+* [Spring framework Reference Documentation](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/)
+* [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 * Varanasi Balaji, Belida Sudha: [Spring REST](http://www.apress.com/la/book/9781484208243)
 * Sam Newman: [Building Microservices]( http://shop.oreilly.com/product/0636920033158.do)
+* Craig Walls: [Spring in action](https://www.manning.com/books/spring-in-action-fourth-edition)
 
 Pluralsight has some good courses. It is paid service, but there is a 30 days free trial:
 * [Spring Fundamentals](https://app.pluralsight.com/library/courses/spring-fundamentals/table-of-contents)
