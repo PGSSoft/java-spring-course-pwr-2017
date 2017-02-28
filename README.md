@@ -6,7 +6,7 @@ Our goal is to go through key aspects of professional development of web applica
 
 After the course, we would like to invite some of you to participate in summer internship program at PGS Software. Do not worry, its paid internship, and you will be able to put your newly acquired knowledge in practice in real-world challenges in renowned software house. Perhaps later you would like to stay with us longer…
 
-## Org
+## Organization
 * The course will start March 7 (Tuesday)
 * The course will consist of eight meetings, carried over six weeks:
 * 07.03.2017
@@ -20,6 +20,7 @@ After the course, we would like to invite some of you to participate in summer i
 * Classes will start at 5pm and last two hours. 
 * Classes will take place at Wrocław University of Technology, plac Grunwaldzki 11, 50-377 Wrocław, building D-21, room 201
 * You can contact us via pgscourse@pgs-soft.com
+* At the last class, there will be written exam, mandatory to pass the course.
 
 ## Prerequisites
 * Basic Java SE skills is the only hard requirement. We would like to focus on how to implement features in given framework, environment, tools, clean code, good practices etc. not the basics of language itself.
@@ -71,6 +72,7 @@ Note, that this may be subject to change depending on how fast we will be able t
 ### Chapter 8: Error Handling & Advanced Spring
 * HTTP Error codes and Java exceptions
 * Advanced Spring features and more
+* Written exam
 
 ## Materials
 Aside from links in the agenda:
