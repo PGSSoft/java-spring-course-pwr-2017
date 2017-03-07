@@ -194,7 +194,7 @@ Visual C++ Redistributable for Visual Studio 2015
 ## Curl
 
 * Download curl from https://curl.haxx.se/download.html
-* From command line: curl -H "Content-type: application/json" http://localhost:8080/forecast/Berlin/2016-03-03/
+* From command line: curl -H "Content-type: application/json" http://localhost:8080/forecast/Berlin/
 * It should output something like: {"location":"Berlin","temperature":278}
 
 ## Postman
