@@ -8,7 +8,7 @@ After the course, we would like to invite some of you to participate in summer i
 
 # Announcement
 
-Any important news, like exam results, goes here.
+Any important news, like exam results, goes here. 
 
 # Organization
 * The course will start March 7 (Tuesday)
