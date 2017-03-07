@@ -98,7 +98,7 @@ Pluralsight has some good courses. It is paid service, but there is a 30 days fr
 
 # Project setup
 
-Environment preparation from ground up
+Environment preparation from ground up.
 
 ## GitHub
 
