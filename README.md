@@ -10,6 +10,14 @@ After the course, we would like to invite some of you to participate in summer i
 
 Any important news, like exam results, goes here. 
 
+# Homework
+
+## Chapter 2
+
+* Prepare a release using maven release plugin (http://maven.apache.org/maven-release/maven-release-plugin/) As a result the artefact should be deployed to local instance of nexus (download version 2 from https://www.sonatype.com/download-oss-sonatype) and tagged properly on your github repository
+
+* Try the difference between @RestController and @Controller, add new method that will return CurrencyDTO that includes Currency and BigDecimal objects.
+
 # Organization
 * The course will start March 7 (Tuesday)
 * The course will consist of eight meetings, carried over six weeks:
