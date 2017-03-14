@@ -73,6 +73,8 @@ Note, that this may be subject to change depending on how fast we will be able t
 * [Spring Boot]( https://projects.spring.io/spring-boot/).
 * Beans, scopes, annotations, factories, contexts.
 
+https://docs.google.com/forms/d/1Enr7B2JxDPIqGDwOajTreTCIimgbtshanfD457UbMKM
+
 ## Chapter 4: Web Services
 * REST, HTTP verbs, Richardson maturity model.
 * HATEOAS.
