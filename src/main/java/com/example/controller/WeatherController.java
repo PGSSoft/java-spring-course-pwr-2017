@@ -23,7 +23,7 @@ public class WeatherController {
     private Collection<WeatherService> weatherServices;
 
     @Autowired
-    @Qualifier("otherWeatherType")
+    @Qualifier("xmlBean")
     private String myBean;
 
 
