@@ -13,6 +13,8 @@ Any important news, like exam results, goes here.
 # Homework
 
 ## Chapter 3
+`Please also fill in the questionaire attached to description of chapter 3. Fron now on the questionaire will be attached to each chapter`
+
 Split existing application into several maven modules with following naming and content:
 - rest client - contains the `DemoApplication` along with controllers
 - business logic interface - contains technology agnostic interfaces
