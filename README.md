@@ -19,7 +19,9 @@ Split existing application into several maven modules with following naming and 
 - business logic implementation - contains classes implementing interfaces
 - rest client - leave empty for now
 - database - leave empty for now
+
 You may have use of following resources
+
 - guide to modules: http://books.sonatype.com/mvnex-book/reference/multimodule.html
 - guide to configuration: http://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch03.html
 
