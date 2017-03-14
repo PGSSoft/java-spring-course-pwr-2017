@@ -12,6 +12,17 @@ Any important news, like exam results, goes here.
 
 # Homework
 
+## Chapter 3
+Split existing application into several maven modules with following naming and content:
+- rest client - contains the `DemoApplication` along with controllers
+- business logic interface - contains technology agnostic interfaces
+- business logic implementation - contains classes implementing interfaces
+- rest client - leave empty for now
+- database - leave empty for now
+You may have use of following resources
+- guide to modules: http://books.sonatype.com/mvnex-book/reference/multimodule.html
+- guide to configuration: http://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch03.html
+
 ## Chapter 2
 
 * Prepare a release using maven release plugin (http://maven.apache.org/maven-release/maven-release-plugin/) As a result the artefact should be deployed to local instance of nexus (download version 2 from https://www.sonatype.com/download-oss-sonatype) and tagged properly on your github repository
