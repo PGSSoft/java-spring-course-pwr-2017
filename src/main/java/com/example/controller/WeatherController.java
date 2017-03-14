@@ -7,7 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.Collectors;
 
 /**
@@ -18,15 +20,19 @@ import java.util.stream.Collectors;
 public class WeatherController {
 
     @Autowired
-    private WeatherService watherCondition;
+    private Collection<WeatherService> weatherServices;
 
-    @RequestMapping("/weather/cute")
-    public String getCuteWeather() {
-        return watherCondition.getWeather();
+    @Autowired
+    @Qualifier("otherWeatherType")
+    private String myBean;
+
+
+    @RequestMapping("/weather")
+    public List<String> allWeathers() {
+        List<String> result = new ArrayList<String>();
+        weatherServices.forEach(((x)->result.add(x.getWeather())));
+        result.add(myBean);
+        return result;
     }
 
-    @RequestMapping("/weather/ugly")
-    public String getUglyWeather() {
-        return watherCondition.getWeather();
-    }
 }

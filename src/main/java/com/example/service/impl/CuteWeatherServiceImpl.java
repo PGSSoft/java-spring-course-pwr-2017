@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 /**
  * Created by piotr on 14.03.17.
  */
-@Profile("cuteProfile")
 @Service("cute")
 public class CuteWeatherServiceImpl implements WeatherService {
 
