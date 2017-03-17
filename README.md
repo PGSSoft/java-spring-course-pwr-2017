@@ -12,6 +12,24 @@ Any important news, like exam results, goes here.
 
 # Homework
 
+## Chapter 4
+
+Fill the questionaire for chapter 4 in agenda
+
+Add to an existing application endpoints that will:
+* Accept GET request with source currency and target currency and return exchange rates based on real data from http://fixer.io/
+* Accept GET request with source currency and multiple target currencies and return rates for each one
+* Do the same, but accept POST request with a JSON body containing those parameters
+* Accept a number between 0 and 1000, source currency and target currency and performs conversion
+* Add date as parameter to present historical results
+* Return some status codes besides "200 OK" and "500 Internal Server Error"
+
+Resources:
+
+* How to build own webervice: https://howtotrainyourjava.com/2017/03/09/spring-web-basics/
+* How to use external webservice: https://spring.io/guides/gs/consuming-rest/
+
+
 ## Chapter 3
 `Please also fill in the questionaire attached to description of chapter 3. Fron now on the questionaire will be attached to each chapter`
 
@@ -78,10 +96,13 @@ Note, that this may be subject to change depending on how fast we will be able t
 https://docs.google.com/forms/d/1Enr7B2JxDPIqGDwOajTreTCIimgbtshanfD457UbMKM
 
 ## Chapter 4: Web Services
-* REST, HTTP verbs, Richardson maturity model.
-* HATEOAS.
-* Spring Rest.
+* HTTP methods, Servlets, JSON
+* Web services, REST
+* Processing incoming requests
+* Outgoing requests - RestTemplate
 * Tools – [Postman]( https://www.getpostman.com/docs/introduction).
+
+https://docs.google.com/forms/d/1OkYfO5MBPqwf3KQmKElG3koCXyxRdYuywJ1FrioBAPw
 
 ## Chapter 5: Database
 * SQL and relational databases.
