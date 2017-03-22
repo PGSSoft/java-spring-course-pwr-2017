@@ -1,6 +1,5 @@
 package com.example.service;
 
-import org.springframework.stereotype.Service;
 
 /**
  * Created by piotr on 14.03.17.

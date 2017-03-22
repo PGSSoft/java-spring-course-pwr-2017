@@ -4,7 +4,7 @@ import com.example.model.ExchangeModel;
 
 import com.example.model.WeatherParams;
 import com.example.model.WeatherResponse;
-import com.example.service.ExchangeClient;
+import com.example.service.ExchangeService;
 import com.example.service.OpenWeatherMapClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,8 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/newapi")
 public class NewWeatherController {
 
+
     @Autowired
-    private ExchangeClient exchangeClient;
+    private ExchangeService exchangeService;
 
     @Autowired
     private OpenWeatherMapClient weatherClient;
@@ -52,7 +53,7 @@ public class NewWeatherController {
 
     @RequestMapping("/currency")
     public ExchangeModel getExchange() {
-        return exchangeClient.getExchange();
+        return exchangeService.getExchange();
     }
 
     @RequestMapping("/forecast/{city}")

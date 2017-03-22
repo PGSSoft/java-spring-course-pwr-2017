@@ -39,11 +39,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>rest-client</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.example</groupId>
@@ -51,5 +47,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 
 </project>

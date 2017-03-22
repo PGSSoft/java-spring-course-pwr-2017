@@ -14,5 +14,18 @@
     <artifactId>business-logic-interface</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+        </dependency>
+    </dependencies>
+
+
+
 </project>
