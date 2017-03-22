@@ -8,9 +8,26 @@ After the course, we would like to invite some of you to participate in summer i
 
 # Announcement
 
-Any important news, like exam results, goes here. 
+Classes on March 28th will be in room 007, same as march 21st.
 
 # Homework
+
+## Chapter 5
+
+Fill the questionaire for chapter 5 in agenda
+
+* Modify existing endpoints, that result in a query to fixer.io, to save exchange rates in database. 
+The entry should contain rates of few common currencies to EUR and date.
+* Add a new GET endpoint that will return last entry from database.
+* Add a new PUT endpoint that will save new entry provided in request body in database and return current number of entries.
+* Add a new DELETE endpoint that will remove one entry based on provided id.
+* Add a new POST endpoint expecting body containing currency code and two dates and returning statistics from this period including: (but not limited to) average, minimum and maximum rates to EUR and number of entries.
+* Redesign the database - use two tables instead of one. First should contain id, currency code and name. Second should have id, date, use two foreign keys from first table and store exchange rates between two arbitrary currencies in one entry. Add new endpoints to handle new design. Experiment :)
+
+Resources:
+
+* Spring DATA JPA documentation: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+* Guide how to start: https://howtotrainyourjava.com/2017/03/16/spring-data-jpa-basics/
 
 ## Chapter 4
 
@@ -109,6 +126,8 @@ https://docs.google.com/forms/d/1OkYfO5MBPqwf3KQmKElG3koCXyxRdYuywJ1FrioBAPw
 * SQL and relational databases.
 * JPA, Object-Relational Mapping.
 * Spring Data.
+
+https://docs.google.com/a/goeuro.com/forms/d/1_ZXTBJIELdcloLxn3zo4OLvjTH98Ty3uFh5XFRf9Tqw
 
 ## Chapter 6: Testing
 * Testing basics
