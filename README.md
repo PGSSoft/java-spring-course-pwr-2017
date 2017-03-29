@@ -8,9 +8,23 @@ After the course, we would like to invite some of you to participate in summer i
 
 # Announcement
 
-Classes on March 28th will be in room 007, same as march 21st.
+* Classes on March 28th will be in room 007, same as march 21st.
+* Please fill in an anonymous questionaire: https://www.biurokarier.pwr.edu.pl/aktualnosci/110/badanie-moj-idealny-pracodawca
 
 # Homework
+
+## Chapter 6 
+
+FILL the questionare for chapter 6 in agenda
+* Provide 60% of coverage for shource code from previous chapter 
+* Write Hamcrest matthers `isPresent` and `isEmpty`. First matches when Optional.isPresent() is true, the other when Optional.empty() is true
+* Write Matcher named `exchangesFrom` that takes a currency as an arugment and matches when CurrencyPair contains 'from currency'`corresponding to matcher's argument
+* Write a method in `business-logic-implementation` that retuns all currency pairs from database. Mock repository so it retuns 5 different currency pairs and use `exchangeFrom` matcher along with `hasItem` matcher so `hasItem(exchangeFrom(PLN))` matches if returned collection contains at least one pair with PLN as base currency
+
+
+Resources:
+* Java doc for `hasItem` matcher: http://hamcrest.org/JavaHamcrest/javadoc/1.3/org/hamcrest/CoreMatchers.html#hasItems(org.hamcrest.Matcher...)
+
 
 ## Chapter 5
 
@@ -134,6 +148,8 @@ https://docs.google.com/a/goeuro.com/forms/d/1_ZXTBJIELdcloLxn3zo4OLvjTH98Ty3uFh
 * [Junit]( http://junit.org/), unit tests
 * [Mockito]( http://site.mockito.org/), mocking frameworks
 * Integration tests
+
+https://docs.google.com/forms/d/1YPj5RAbxR7obPBu1v9hlwYExZg6f_XaTjFVn6kefuqs
 
 ## Chapter 7: Security & Logging
 * Spring Security
