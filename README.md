@@ -16,14 +16,15 @@ After the course, we would like to invite some of you to participate in summer i
 ## Chapter 6 
 
 FILL the questionare for chapter 6 in agenda
-* Provide 60% of coverage for shource code from previous chapter 
-* Write Hamcrest matthers `isPresent` and `isEmpty`. First matches when Optional.isPresent() is true, the other when Optional.empty() is true
+* Provide 60% of coverage for source code from previous chapter 
+* Write Hamcrest matchers `isPresent` and `isEmpty`. First matches when Optional.isPresent() is true, the other when Optional.empty() is true
 * Write Matcher named `exchangesFrom` that takes a currency as an arugment and matches when CurrencyPair contains 'from currency'`corresponding to matcher's argument
-* Write a method in `business-logic-implementation` that retuns all currency pairs from database. Mock repository so it retuns 5 different currency pairs and use `exchangeFrom` matcher along with `hasItem` matcher so `hasItem(exchangeFrom(PLN))` matches if returned collection contains at least one pair with PLN as base currency
+* Write a method in `business-logic-implementation` that returns all currency pairs from database. Mock repository so it returns 5 different currency pairs and use `exchangeFrom` matcher along with `hasItem` matcher so `hasItem(exchangeFrom(PLN))` matches if returned collection contains at least one pair with PLN as base currency
 
 
 Resources:
 * Java doc for `hasItem` matcher: http://hamcrest.org/JavaHamcrest/javadoc/1.3/org/hamcrest/CoreMatchers.html#hasItems(org.hamcrest.Matcher...)
+* Introduction to unit testing: https://howtotrainyourjava.com/2017/03/23/unit-testing-basics/
 
 
 ## Chapter 5
