@@ -14,9 +14,13 @@ import java.util.Currency;
 @RestController
 public class CurrencyExchangeController {
 
+    public CurrencyExchangeController(){
+
+    }
+
     @RequestMapping("/{number}")
-    public Long multiplyByTwo(@PathVariable Long number){
-      return number*2;
+    public Long multiplyByFive(@PathVariable Long number){
+      return number*5;
     }
 
     @RequestMapping("/currency/{value}/")

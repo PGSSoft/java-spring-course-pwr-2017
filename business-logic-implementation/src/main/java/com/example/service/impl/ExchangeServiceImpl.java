@@ -15,7 +15,7 @@ public class ExchangeServiceImpl implements ExchangeService {
     @Autowired
     private ExchangeClient exchangeClient;
 
-    @Override
+ //   @Override
     public ExchangeModel getExchange() {
         return exchangeClient.getExchange();
     }

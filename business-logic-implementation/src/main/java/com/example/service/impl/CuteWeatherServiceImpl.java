@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service("cute")
 public class CuteWeatherServiceImpl implements WeatherService {
 
-    @Override
+   // @Override
     public String getWeather() {
         return "It's shiny";
     }
