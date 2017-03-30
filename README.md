@@ -142,7 +142,7 @@ https://docs.google.com/forms/d/1OkYfO5MBPqwf3KQmKElG3koCXyxRdYuywJ1FrioBAPw
 * JPA, Object-Relational Mapping.
 * Spring Data.
 
-https://docs.google.com/a/goeuro.com/forms/d/1_ZXTBJIELdcloLxn3zo4OLvjTH98Ty3uFh5XFRf9Tqw
+https://docs.google.com/forms/d/1_ZXTBJIELdcloLxn3zo4OLvjTH98Ty3uFh5XFRf9Tqw
 
 ## Chapter 6: Testing
 * Testing basics
