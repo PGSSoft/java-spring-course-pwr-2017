@@ -6,7 +6,9 @@ import com.example.model.WeatherParams;
 import com.example.model.WeatherResponse;
 import com.example.service.ExchangeService;
 import com.example.service.OpenWeatherMapClient;
+import com.example.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -25,8 +27,12 @@ public class NewWeatherController {
     @Autowired
     private ExchangeService exchangeService;
 
+/*    @Autowired
+    private OpenWeatherMapClient weatherClient;*/
+
     @Autowired
-    private OpenWeatherMapClient weatherClient;
+    @Qualifier("weatherServiceImpl")
+    private WeatherService weatherService;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     String hello(@RequestParam(name = "imie", required = false, defaultValue = "stranger") String name) {
@@ -58,7 +64,7 @@ public class NewWeatherController {
 
     @RequestMapping("/forecast/{city}")
     public WeatherResponse getWeather(@PathVariable String city) {
-        return weatherClient.getWeather(city);
+        return weatherService.getWeather(city);
     }
 
 }

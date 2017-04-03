@@ -1,5 +1,6 @@
 package com.example.service.impl;
 
+import com.example.model.WeatherResponse;
 import com.example.service.WeatherService;
 import org.springframework.stereotype.Service;
 
@@ -12,5 +13,10 @@ public class CuteWeatherServiceImpl implements WeatherService {
    // @Override
     public String getWeather() {
         return "It's shiny";
+    }
+
+    @Override
+    public WeatherResponse getWeather(String city) {
+        return null;
     }
 }
