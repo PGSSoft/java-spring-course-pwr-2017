@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <weather id="1" city="Wrocław" temp="-15" pressure="999" time="2017-01-15"/>
+    <weather id="2" city="Wrocław" temp="-14" pressure="999" time="2017-01-16"/>
+    <weather id="3" city="Wrocław" temp="-13" pressure="999" time="2017-01-17"/>
+    <weather id="4" city="Wrocław" temp="-12" pressure="999" time="2017-01-18"/>
+    <weather id="5" city="Wrocław" temp="-11" pressure="999" time="2017-01-19"/>
+</dataset>
