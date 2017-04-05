@@ -152,9 +152,12 @@ https://docs.google.com/forms/d/1_ZXTBJIELdcloLxn3zo4OLvjTH98Ty3uFh5XFRf9Tqw
 
 https://docs.google.com/forms/d/1YPj5RAbxR7obPBu1v9hlwYExZg6f_XaTjFVn6kefuqs
 
-## Chapter 7: Security & Logging
+## Chapter 7: Security, Front-end & Logging
 * Spring Security
+* JHipster frontend
 * Logging frameworks
+
+https://docs.google.com/forms/d/1zzWLu5B29GmQenMjjLigIaXYRUwbMaYaH6VI9qdFQkU
 
 ## Chapter 8: Error Handling & Advanced Spring
 * HTTP Error codes and Java exceptions
