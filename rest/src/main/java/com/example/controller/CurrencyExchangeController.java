@@ -12,6 +12,7 @@ import java.util.Currency;
  * Created by piotr on 07.03.17.
  */
 @RestController
+@RequestMapping("/api/v2")
 public class CurrencyExchangeController {
 
     public CurrencyExchangeController(){
